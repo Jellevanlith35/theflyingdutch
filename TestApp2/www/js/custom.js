@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $(".location").height($( window ).height()/100*33.3);
+    $(".location").height($.mobile.getScreenHeight()/100*33.3);
 });
