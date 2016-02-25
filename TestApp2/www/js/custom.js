@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".location").height($( window ).height()/100*33.3);
 /*$(".location.amsterdam").click(function() {
   $(this).animate({ background-color: '#ffffff' }, 1000);
 });
