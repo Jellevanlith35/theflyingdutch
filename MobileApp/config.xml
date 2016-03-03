@@ -61,7 +61,11 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
-  <access origin="*"/>
+  <!-- Hopefully will fix jQuery problem-->
+   <access origin="*"/>
+   <access origin="code.jquery.com" subdomains="true" />
+   <allow-navigation href="*://*.code.jquery.com/*" />
+
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
